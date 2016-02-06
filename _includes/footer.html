@@ -1,38 +1,34 @@
+
+
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+  <div class="wrapper icons">
+    <div class="social-media-list">
+        <a href="https://github.com/{{ site.github_username }}" class="icon social" target="_blank">
+          <span class="icon social">{% include icon-github.svg %}</span>
+        </a>
+        <a href="mailto:{{ site.email }}" class="icon social" target="_blank">
+          <span class="icon social">{% include icon-email.svg %}</span>
+        </a>
+        <a href="https://twitter.com/{{ site.twitter_username }}" class="icon-twitter" target="_blank">
+          <span class="icon social">{% include icon-twitter.svg %}</span>
+        </a>
+        <a href="https://instagram.com/{{ site.instagram_username }}" class="icon social" target="_blank">
+          <span class="icon social">{% include icon-instagram.svg %}</span>
+        </a>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon social" target="_blank">
+          <span class="icon social">{% include icon-linkedin.svg %}</span>
+        </a>
     </div>
 
-  </div>
+    <!--<p>-->
+      <!--<q>{{ site.thought.text }}</q>-->
+      <!--<small>– {{ site.thought.author }}</small>-->
+    <!--</p>-->
 
+    <!--<small class="clearfix">-->
+      <!--Made with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> • <a href="{{ site.repo }}" target="_blank">Open source <i class="fa fa-heart"></i></a>-->
+    <!--</small>-->
+  </div>
 </footer>
+
+<a class="scroll-up fa fa-chevron-up bounce" href="#" data-position="0"></a>

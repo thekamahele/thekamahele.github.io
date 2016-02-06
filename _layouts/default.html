@@ -8,9 +8,16 @@
     {% include header.html %}
 
     <div class="page-content">
+
+
+        {% include banner.html %}
+
+      <!-- ABOUT begin -->
       <div class="wrapper">
         {{ content }}
+        {% include about.html %}
       </div>
+      <!-- ABOUT end-->
     </div>
 
     {% include footer.html %}

@@ -1,21 +1,26 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Jira Vinyoopongphan | Software Engineer
+email: jira.vinyoo@gmail.com
+description: >
+  Designed and created by Jira Vinyoopongphan
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://thekamahele.github.io" # the base hostname & protocol for your site
+profile_img: ./assets/profile_img.jpeg
+
+#Social Profiles
+twitter_username: thekamahele
+github_username:  thekamahele
+instagram_username:  thekamahele
+linkedin_username: jiravinyoo
+
+thought:
+  text: Twenty years from now you will be more disappointed by the things you didn’t
+
+#    do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor.
+#    Catch the trade winds in your sails. Explore. Dream. Discover.
+  author: Mark Twain
 
 # Build settings
 markdown: kramdown

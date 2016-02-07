@@ -2,9 +2,8 @@
 
 # Site settings
 title: Jira Vinyoopongphan | Software Engineer
+name: Jira Vinyoopongphan
 email: jira.vinyoo@gmail.com
-description: >
-  Designed and created by Jira Vinyoopongphan
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://thekamahele.github.io" # the base hostname & protocol for your site
 profile_img: ./assets/profile_img.jpeg
@@ -16,10 +15,10 @@ instagram_username:  thekamahele
 linkedin_username: jiravinyoo
 
 thought:
-  text: Twenty years from now you will be more disappointed by the things you didn’t
-
-#    do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor.
-#    Catch the trade winds in your sails. Explore. Dream. Discover.
+  text: >
+    Twenty years from now you will be more disappointed by the things you didn’t
+    do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor.
+    Catch the trade winds in your sails. Explore. Dream. Discover.
   author: Mark Twain
 
 # Build settings

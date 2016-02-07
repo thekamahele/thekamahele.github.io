@@ -8,6 +8,7 @@
   text-align: center;
 
   p {
+
     small {
       color: #999;
     }
@@ -59,7 +60,7 @@
           background-color: #222;
         }
         &.icon-facebook {
-          background-color: #3765A3;
+          fill: #3765A3;
         }
         &.icon-twitter {
           background-color: #5EA9DD;
@@ -72,5 +73,50 @@
         }
       }
     }
+  }
+
+}
+
+footer {
+  a:hover {
+    .icon-github {
+      path {
+        fill: #222;
+      }
+    }
+
+    .icon-twitter {
+      path {
+        fill: #5EA9DD;
+      }
+    }
+
+    .icon-linkedin {
+      path {
+        fill: #0274B3;
+      }
+    }
+
+    .icon-instagram {
+      path {
+        fill: #323232;
+      }
+    }
+
+    .icon-email {
+      path {
+        fill: $brand-color;
+      }
+    }
+
+    #arrow {
+      img {
+        width: 70px;
+      }
+    }
+  }
+
+  img {
+    width: 50px;
   }
 }

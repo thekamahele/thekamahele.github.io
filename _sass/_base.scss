@@ -205,3 +205,27 @@ pre {
     }
 }
 
+/**
+ * Grid
+ */
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    //> :nth-child(n) {
+    //    display: inline-block;
+    //}
+}
+
+.column {
+    //height: 100%;
+    //width: 45%;
+    //display: block;
+    margin: 8px;
+    //display:flex;
+    flex-direction: column;
+    //justify-content:center;
+    align-items:center;
+    width:45%;
+    height:100%;
+}
